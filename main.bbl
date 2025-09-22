@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{16}%
+\begin{thebibliography}{17}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -50,122 +50,86 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
-\bibitem [{\citenamefont {Doyle}\ \emph {et~al.}(2007)\citenamefont {Doyle},
-  \citenamefont {Houlberg}, \citenamefont {Kamada}, \citenamefont {Mukhovatov},
-  \citenamefont {Osborne}, \citenamefont {Polevoi}, \citenamefont {Bateman},
-  \citenamefont {Connor}, \citenamefont {Cordey}, \citenamefont {Fujita},
-  \citenamefont {Garbet}, \citenamefont {Hahm}, \citenamefont {Horton},
-  \citenamefont {Hubbard}, \citenamefont {Imbeaux}, \citenamefont {Jenko},
-  \citenamefont {Kinsey}, \citenamefont {Kishimoto}, \citenamefont {Li},
-  \citenamefont {Luce}, \citenamefont {Martin}, \citenamefont {Ossipenko},
-  \citenamefont {Parail}, \citenamefont {Peeters}, \citenamefont {Rhodes},
-  \citenamefont {Rice}, \citenamefont {Roach}, \citenamefont {Rozhansky},
-  \citenamefont {Ryter}, \citenamefont {Saibene}, \citenamefont {Sartori},
-  \citenamefont {Sips}, \citenamefont {Snipes}, \citenamefont {Sugihara},
-  \citenamefont {Synakowski}, \citenamefont {Takenaga}, \citenamefont
-  {Takizuka}, \citenamefont {Thomsen}, \citenamefont {Wade}, \citenamefont
-  {Wilson}, \citenamefont {{ITPA Transport Physics Topical Group}},
-  \citenamefont {{ITPA Confinement Database and Model Group}},\ and\
-  \citenamefont {{ITPA Pedestal and Edge Topical Group}}}]{ITER:2007}%
+\bibitem [{\citenamefont {Ida}(2020)}]{Ida:2020}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
-  {Doyle}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Houlberg}},
-  \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Kamada}}, \bibinfo
-  {author} {\bibfnamefont {V.}~\bibnamefont {Mukhovatov}}, \bibinfo {author}
-  {\bibfnamefont {T.}~\bibnamefont {Osborne}}, \bibinfo {author} {\bibfnamefont
-  {A.}~\bibnamefont {Polevoi}}, \bibinfo {author} {\bibfnamefont
-  {G.}~\bibnamefont {Bateman}}, \bibinfo {author} {\bibfnamefont
-  {J.}~\bibnamefont {Connor}}, \bibinfo {author} {\bibfnamefont
-  {J.}~\bibnamefont {Cordey}}, \bibinfo {author} {\bibfnamefont
-  {T.}~\bibnamefont {Fujita}}, \bibinfo {author} {\bibfnamefont
-  {X.}~\bibnamefont {Garbet}}, \bibinfo {author} {\bibfnamefont
-  {T.}~\bibnamefont {Hahm}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
-  {Horton}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Hubbard}},
-  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Imbeaux}}, \bibinfo
-  {author} {\bibfnamefont {F.}~\bibnamefont {Jenko}}, \bibinfo {author}
-  {\bibfnamefont {J.}~\bibnamefont {Kinsey}}, \bibinfo {author} {\bibfnamefont
-  {Y.}~\bibnamefont {Kishimoto}}, \bibinfo {author} {\bibfnamefont
-  {J.}~\bibnamefont {Li}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
-  {Luce}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Martin}},
-  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Ossipenko}}, \bibinfo
-  {author} {\bibfnamefont {V.}~\bibnamefont {Parail}}, \bibinfo {author}
-  {\bibfnamefont {A.}~\bibnamefont {Peeters}}, \bibinfo {author} {\bibfnamefont
-  {T.}~\bibnamefont {Rhodes}}, \bibinfo {author} {\bibfnamefont
-  {J.}~\bibnamefont {Rice}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
-  {Roach}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Rozhansky}},
-  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Ryter}}, \bibinfo
-  {author} {\bibfnamefont {G.}~\bibnamefont {Saibene}}, \bibinfo {author}
-  {\bibfnamefont {R.}~\bibnamefont {Sartori}}, \bibinfo {author} {\bibfnamefont
-  {A.}~\bibnamefont {Sips}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Snipes}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Sugihara}},
-  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Synakowski}}, \bibinfo
-  {author} {\bibfnamefont {H.}~\bibnamefont {Takenaga}}, \bibinfo {author}
-  {\bibfnamefont {T.}~\bibnamefont {Takizuka}}, \bibinfo {author}
-  {\bibfnamefont {K.}~\bibnamefont {Thomsen}}, \bibinfo {author} {\bibfnamefont
-  {M.}~\bibnamefont {Wade}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
-  {Wilson}}, \bibinfo {author} {\bibnamefont {{ITPA Transport Physics Topical
-  Group}}}, \bibinfo {author} {\bibnamefont {{ITPA Confinement Database and
-  Model Group}}}, \ and\ \bibinfo {author} {\bibnamefont {{ITPA Pedestal and
-  Edge Topical Group}}},\ }\href {\doibase 10.1088/0029-5515/47/6/s02}
-  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Fusion}\ }\textbf {\bibinfo
-  {volume} {47}},\ \bibinfo {pages} {S18} (\bibinfo {year} {2007})}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Yamada}\ \emph {et~al.}(2005)\citenamefont {Yamada},
-  \citenamefont {Harris}, \citenamefont {Dinklage}, \citenamefont
-  {Ascas{\'\i}bar}, \citenamefont {Sano}, \citenamefont {Okamura},
-  \citenamefont {Talmadge}, \citenamefont {Stroth}, \citenamefont {Kus},
-  \citenamefont {Murakami}, \citenamefont {Yokoyama}, \citenamefont {Beidler},
-  \citenamefont {Tribaldos}, \citenamefont {Watanabe},\ and\ \citenamefont
-  {Suzuki}}]{Yamada:2005}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Ida}},\ }\href {\doibase 10.1080/23746149.2020.1801354} {\bibfield
+  {journal} {\bibinfo  {journal} {Advances in Physics: X}\ }\textbf {\bibinfo
+  {volume} {5}},\ \bibinfo {pages} {1801354} (\bibinfo {year}
+  {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hidalgo}\ \emph {et~al.}(2006)\citenamefont
+  {Hidalgo}, \citenamefont {Pedrosa}, \citenamefont {S{\'a}nchez},
+  \citenamefont {Gon{\c c}alves}, \citenamefont {Alonso}, \citenamefont
+  {Calder{\'o}n}, \citenamefont {Chmyga}, \citenamefont {Dreval}, \citenamefont
+  {Eliseev}, \citenamefont {Estrada}, \citenamefont {Krupnik}, \citenamefont
+  {Melnikov}, \citenamefont {Orozco}, \citenamefont {de~Pablos},\ and\
+  \citenamefont {Silva}}]{Hidalgo:2006b}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
-  {Yamada}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Harris}},
-  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Dinklage}}, \bibinfo
-  {author} {\bibfnamefont {E.}~\bibnamefont {Ascas{\'\i}bar}}, \bibinfo
-  {author} {\bibfnamefont {F.}~\bibnamefont {Sano}}, \bibinfo {author}
-  {\bibfnamefont {S.}~\bibnamefont {Okamura}}, \bibinfo {author} {\bibfnamefont
-  {J.}~\bibnamefont {Talmadge}}, \bibinfo {author} {\bibfnamefont
-  {U.}~\bibnamefont {Stroth}}, \bibinfo {author} {\bibfnamefont
-  {A.}~\bibnamefont {Kus}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Murakami}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Yokoyama}},
-  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Beidler}}, \bibinfo
-  {author} {\bibfnamefont {V.}~\bibnamefont {Tribaldos}}, \bibinfo {author}
-  {\bibfnamefont {K.}~\bibnamefont {Watanabe}}, \ and\ \bibinfo {author}
-  {\bibfnamefont {Y.}~\bibnamefont {Suzuki}},\ }\href {\doibase
-  10.1088/0029-5515/45/12/024} {\bibfield  {journal} {\bibinfo  {journal}
-  {Nucl. Fusion}\ }\textbf {\bibinfo {volume} {45}},\ \bibinfo {pages} {1684}
-  (\bibinfo {year} {2005})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Eguilior}\ \emph {et~al.}(2003)\citenamefont
-  {Eguilior}, \citenamefont {Castejón}, \citenamefont {de~la Luna},
-  \citenamefont {Cappa}, \citenamefont {Likin}, \citenamefont {Fernández},\
-  and\ \citenamefont {Team}}]{S_Eguilior_2003}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Hidalgo}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Pedrosa}},
+  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {S{\'a}nchez}}, \bibinfo
+  {author} {\bibfnamefont {B.}~\bibnamefont {Gon{\c c}alves}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Alonso}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {Calder{\'o}n}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Chmyga}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {Dreval}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Eliseev}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Estrada}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Krupnik}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Melnikov}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Orozco}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {de~Pablos}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Silva}},\ }\href {\doibase 10.1088/0741-3335/48/4/S12}
+  {\bibfield  {journal} {\bibinfo  {journal} {Plasma Phys. Control. Fusion}\
+  }\textbf {\bibinfo {volume} {48}},\ \bibinfo {pages} {S169} (\bibinfo {year}
+  {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pedrosa}\ \emph
+  {et~al.}(2005{\natexlab{a}})\citenamefont {Pedrosa}, \citenamefont {Hidalgo},
+  \citenamefont {Calder{\'o}n}, \citenamefont {Estrada}, \citenamefont
+  {Fern{\'a}ndez}, \citenamefont {Herranz}, \citenamefont {Pastor},\ and\
+  \citenamefont {{the TJ-II Team}}}]{Pedrosa:2005}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Eguilior}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Castejón}},
-  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {de~la Luna}}, \bibinfo
-  {author} {\bibfnamefont {A.}~\bibnamefont {Cappa}}, \bibinfo {author}
-  {\bibfnamefont {K.}~\bibnamefont {Likin}}, \bibinfo {author} {\bibfnamefont
-  {A.}~\bibnamefont {Fernández}}, \ and\ \bibinfo {author} {\bibfnamefont
-  {T.-I.}\ \bibnamefont {Team}},\ }\href {\doibase 10.1088/0741-3335/45/2/303}
-  {\bibfield  {journal} {\bibinfo  {journal} {Plasma Physics and Controlled
-  Fusion}\ }\textbf {\bibinfo {volume} {45}},\ \bibinfo {pages} {105} (\bibinfo
-  {year} {2003})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Grenfell}\ \emph {et~al.}(2019)\citenamefont
-  {Grenfell}, \citenamefont {van Milligen}, \citenamefont {Losada},
-  \citenamefont {Wu}, \citenamefont {Liu}, \citenamefont {Silva}, \citenamefont
-  {Spolaore},\ and\ \citenamefont {Hidalgo}}]{Grenfell:2019}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Pedrosa}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Hidalgo}},
+  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Calder{\'o}n}}, \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {Estrada}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Fern{\'a}ndez}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Herranz}}, \bibinfo {author} {\bibfnamefont
+  {I.}~\bibnamefont {Pastor}}, \ and\ \bibinfo {author} {\bibnamefont {{the
+  TJ-II Team}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Plasma Phys. Control. Fusion}\ }\textbf {\bibinfo {volume} {47}},\ \bibinfo
+  {pages} {777} (\bibinfo {year} {2005}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pedrosa}\ \emph
+  {et~al.}(2005{\natexlab{b}})\citenamefont {Pedrosa}, \citenamefont {Hidalgo},
+  \citenamefont {Calder{\'o}n}, \citenamefont {Alonso}, \citenamefont {Orozco},
+  \citenamefont {de~Pablos}, \citenamefont {{the TJ-II Team}},\ and\
+  \citenamefont {Balan}}]{Pedrosa:2005c}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
-  {Grenfell}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {van
-  Milligen}}, \bibinfo {author} {\bibfnamefont {U.}~\bibnamefont {Losada}},
-  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Wu}}, \bibinfo {author}
-  {\bibfnamefont {B.}~\bibnamefont {Liu}}, \bibinfo {author} {\bibfnamefont
-  {C.}~\bibnamefont {Silva}}, \bibinfo {author} {\bibfnamefont
-  {M.}~\bibnamefont {Spolaore}}, \ and\ \bibinfo {author} {\bibfnamefont
-  {C.}~\bibnamefont {Hidalgo}},\ }\href {\doibase 10.1088/1741-4326/aaf034}
-  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Fusion}\ }\textbf {\bibinfo
-  {volume} {59}},\ \bibinfo {pages} {016018} (\bibinfo {year}
-  {2019})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Pedrosa}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Hidalgo}},
+  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Calder{\'o}n}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Alonso}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Orozco}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {de~Pablos}}, \bibinfo {author} {\bibnamefont {{the TJ-II
+  Team}}}, \ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Balan}},\
+  }\href {\doibase 10.1007/s10582-006-0043-4} {\bibfield  {journal} {\bibinfo
+  {journal} {Czech. J. Phys.}\ }\textbf {\bibinfo {volume} {55}},\ \bibinfo
+  {pages} {1579} (\bibinfo {year} {2005}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pedrosa}\ \emph {et~al.}(2008)\citenamefont
+  {Pedrosa}, \citenamefont {Silva}, \citenamefont {Hidalgo}, \citenamefont
+  {Carreras}, \citenamefont {Orozco}, \citenamefont {Carralero},\ and\
+  \citenamefont {{the TJ-II Team}}}]{Pedrosa:2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Pedrosa}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Silva}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Hidalgo}}, \bibinfo
+  {author} {\bibfnamefont {B.}~\bibnamefont {Carreras}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Orozco}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {Carralero}}, \ and\ \bibinfo {author} {\bibnamefont {{the
+  TJ-II Team}}},\ }\href {\doibase 10.1103/PhysRevLett.100.215003} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {100}},\ \bibinfo {pages} {215003} (\bibinfo {year}
+  {2008})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Melnikov}\ \emph {et~al.}(2011)\citenamefont
   {Melnikov}, \citenamefont {Hidalgo}, \citenamefont {Eliseev}, \citenamefont
   {Ascasibar}, \citenamefont {Chmyga}, \citenamefont {Dyabilin}, \citenamefont
@@ -202,6 +166,21 @@
   {\doibase 10.1088/0029-5515/51/8/083043} {\bibfield  {journal} {\bibinfo
   {journal} {Nucl. Fusion}\ }\textbf {\bibinfo {volume} {51}},\ \bibinfo
   {pages} {083043} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Eguilior}\ \emph {et~al.}(2003)\citenamefont
+  {Eguilior}, \citenamefont {Castej{\'o}n}, \citenamefont {de~la Luna},
+  \citenamefont {Cappa}, \citenamefont {Likin}, \citenamefont {Fern{\'a}ndez},\
+  and\ \citenamefont {Team}}]{S_Eguilior_2003}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Eguilior}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Castej{\'o}n}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {de~la
+  Luna}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Cappa}}, \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Likin}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Fern{\'a}ndez}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {T.-I.}\ \bibnamefont {Team}},\ }\href {\doibase
+  10.1088/0741-3335/45/2/303} {\bibfield  {journal} {\bibinfo  {journal}
+  {Plasma Physics and Controlled Fusion}\ }\textbf {\bibinfo {volume} {45}},\
+  \bibinfo {pages} {105} (\bibinfo {year} {2003})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {van Milligen}\ \emph {et~al.}(2018)\citenamefont {van
   Milligen}, \citenamefont {Carreras}, \citenamefont {Hidalgo}, \citenamefont
   {Cappa},\ and\ \citenamefont {{the TJ-II Team}}}]{Milligen:2018b}%
@@ -214,47 +193,22 @@
   10.1063/1.5029881} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
   Plasmas}\ }\textbf {\bibinfo {volume} {25}},\ \bibinfo {pages} {062503}
   (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Hidalgo}\ \emph {et~al.}(2006)\citenamefont
-  {Hidalgo}, \citenamefont {Pedrosa}, \citenamefont {S{\'a}nchez},
-  \citenamefont {Gon{\c c}alves}, \citenamefont {Alonso}, \citenamefont
-  {Calder{\'o}n}, \citenamefont {Chmyga}, \citenamefont {Dreval}, \citenamefont
-  {Eliseev}, \citenamefont {Estrada}, \citenamefont {Krupnik}, \citenamefont
-  {Melnikov}, \citenamefont {Orozco}, \citenamefont {de~Pablos},\ and\
-  \citenamefont {Silva}}]{Hidalgo:2006b}%
+\bibitem [{\citenamefont {Grenfell}\ \emph {et~al.}(2019)\citenamefont
+  {Grenfell}, \citenamefont {van Milligen}, \citenamefont {Losada},
+  \citenamefont {Wu}, \citenamefont {Liu}, \citenamefont {Silva}, \citenamefont
+  {Spolaore},\ and\ \citenamefont {Hidalgo}}]{Grenfell:2019}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
-  {Hidalgo}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Pedrosa}},
-  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {S{\'a}nchez}}, \bibinfo
-  {author} {\bibfnamefont {B.}~\bibnamefont {Gon{\c c}alves}}, \bibinfo
-  {author} {\bibfnamefont {J.}~\bibnamefont {Alonso}}, \bibinfo {author}
-  {\bibfnamefont {E.}~\bibnamefont {Calder{\'o}n}}, \bibinfo {author}
-  {\bibfnamefont {A.}~\bibnamefont {Chmyga}}, \bibinfo {author} {\bibfnamefont
-  {N.}~\bibnamefont {Dreval}}, \bibinfo {author} {\bibfnamefont
-  {L.}~\bibnamefont {Eliseev}}, \bibinfo {author} {\bibfnamefont
-  {T.}~\bibnamefont {Estrada}}, \bibinfo {author} {\bibfnamefont
-  {L.}~\bibnamefont {Krupnik}}, \bibinfo {author} {\bibfnamefont
-  {A.}~\bibnamefont {Melnikov}}, \bibinfo {author} {\bibfnamefont
-  {R.}~\bibnamefont {Orozco}}, \bibinfo {author} {\bibfnamefont
-  {J.}~\bibnamefont {de~Pablos}}, \ and\ \bibinfo {author} {\bibfnamefont
-  {C.}~\bibnamefont {Silva}},\ }\href {\doibase 10.1088/0741-3335/48/4/S12}
-  {\bibfield  {journal} {\bibinfo  {journal} {Plasma Phys. Control. Fusion}\
-  }\textbf {\bibinfo {volume} {48}},\ \bibinfo {pages} {S169} (\bibinfo {year}
-  {2006})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Pedrosa}\ \emph {et~al.}(2008)\citenamefont
-  {Pedrosa}, \citenamefont {Silva}, \citenamefont {Hidalgo}, \citenamefont
-  {Carreras}, \citenamefont {Orozco}, \citenamefont {Carralero},\ and\
-  \citenamefont {{the TJ-II Team}}}]{Pedrosa:2008}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Pedrosa}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Silva}},
-  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Hidalgo}}, \bibinfo
-  {author} {\bibfnamefont {B.}~\bibnamefont {Carreras}}, \bibinfo {author}
-  {\bibfnamefont {R.}~\bibnamefont {Orozco}}, \bibinfo {author} {\bibfnamefont
-  {D.}~\bibnamefont {Carralero}}, \ and\ \bibinfo {author} {\bibnamefont {{the
-  TJ-II Team}}},\ }\href {\doibase 10.1103/PhysRevLett.100.215003} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
-  {volume} {100}},\ \bibinfo {pages} {215003} (\bibinfo {year}
-  {2008})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Grenfell}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {van
+  Milligen}}, \bibinfo {author} {\bibfnamefont {U.}~\bibnamefont {Losada}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Wu}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {Liu}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Silva}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Spolaore}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Hidalgo}},\ }\href {\doibase 10.1088/1741-4326/aaf034}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Fusion}\ }\textbf {\bibinfo
+  {volume} {59}},\ \bibinfo {pages} {016018} (\bibinfo {year}
+  {2019})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {van Milligen}\ \emph {et~al.}(2023)\citenamefont {van
   Milligen}, \citenamefont {Voldiner}, \citenamefont {Carreras}, \citenamefont
   {Garc{\'\i}a}, \citenamefont {Ochando},\ and\ \citenamefont {{the TJ-II
