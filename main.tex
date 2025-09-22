@@ -41,7 +41,7 @@
 
 \begin{frontmatter}
 %
-\title{Report, ECRH Modulation}
+\title{Study of the electron to ion root transition using Langmuir probes}
 \date{April 14, 2025}
 %\author{Arnold A. Alvarez$^{1}$, Eduardo L. Brugnago$^{1}$ and I. L. Caldas$^{1}$}
 %\address{$^1$Instituto de F\'isica, Universidade de S\~ao Paulo, S\~ao Paulo, SP, Brasil.}
@@ -67,26 +67,34 @@
 \section{Introduction}
 
 
+{\em This section needs to discuss (1) the issue to investigate (impact of ECRH heating power on turbulence), (2) antecedents and previous studies both at TJ-II and elsewhere, (3) motivation and goals of this work.}
 
+The electron to ion (e-i) root transition is an important phenomenon in stellarators, associated with the sign reversal of the radial electric field in the plasma edge.
+It is a confinement transition that involves the spontaneous generation of a transport barrier in the edge plasma region, and therefore is in the same category of transitions as the important L--H (low to high confinement) transition and the formation of Internal Transport Barriers (ITBs) \cite{Ida:2020}.
 
-This section needs to discuss (1) the issue to investigate (impact of ECRH heating power on turbulence), (2) antecedents and previous studies both at TJ-II and elsewhere, (3) motivation and goals of this work.
+In the TJ-II stellarator, the electron to ion root confinement transition has been studied extensively \cite{Hidalgo:2006b}.
+The transition was generally found to occur when the line averaged electron density, $n_e$ exceeds a threshold value of $n_{e,c} \simeq 0.6 \cdot 10^{19}$ m$^{-3}$ \cite{Pedrosa:2005,Pedrosa:2005c}.
+The transition is characterized by an increase of fluctuation levels and the occurrence of long range correlations, characteristic of zonal flows \cite{Pedrosa:2008}.
 
-In general, when the heating power increases, heat transport must increase accordingly, since heat input must be balanced with heat output (at least in steady state). In a purely diffusive system, this means that the thermodynamic gradients must increase in proportion to the heating increase.
-However, in fusion plasmas there exist various channels for heat transport: apart from losses through radiation, one has diffusive transport and anomalous (turbulent) transport. Turbulent transport tends to increase non-linearly once a gradient threshold is superseded.
-Consequently, on average, transport increases more than proportionally with the heating power.
-This phenomenon is called `power degradiation': namely, the plasma energy content $W$ increases less than linearly with heating power $P$: $W \propto P^{0.4}$. 
-Thus, the steady-state energy confinement time decreases with heating power: $\tau_E = W/P \propto P^{-0.6}$, as reflected in the main tokamak and stellarator scaling laws \cite{ITER:2007,Yamada:2005}.
-To achieve a deeper understanding of this issue, one needs to monitor both profiles and turbulence as the heating is changed.
+The control parameter of this transition is however unlikely to be the line average density directly;
+rather, it seems to be controlled by the value of the radial electric field in the plasma edge region.
 
-Assuming that anomalous or turbulent transport plays a key role in confinement degradation, one would also like to understand how turbulent transport reacts to changes in heating: how fast does it respond, how does it propagate radially from the heating deposition region, are spatial correlations and correlations between fluctuating variables affected, etc. 
+The evolution of the potential profile at TJ-II has been documented in some detail \cite{Melnikov:2011}.
+The potential drops gradually as the electron density increases, and near the critical density $n_{e,c}$ it changes sign.
+As a consequence, the edge radial electric field indeed tends to change sign when $n_e$ crosses the critical value.
 
-Previous relevant work at TJ-II: there are no TJ-II studies on ECRH modulation + turbulence analysis. 
-ECRH modulation + global transport \cite{S_Eguilior_2003}. 
-Probes and modulation of electrode biasing \cite{Grenfell:2019}. 
-Modification of the plasma potential profile with density \cite{Melnikov:2011}: it becomes negative at the edge first.
-The impact of ECRH power variations on radial transport \cite{Milligen:2018b}. `Power degradation' suggests an increased role for turbulent transport at high power. 
+There is however a second parameter that modifies the plasma potential: the Electron Cyclotron Resonance Heating (ECRH) power.
+In \cite{Melnikov:2011} it was also reported that the potential increases with higher ECRH power.
+Consequently, as ECRH power is switched off, the plasma potential becomes more negative and often, if the electron density is slightly below the critical density, this triggers an e-i confinement transition.
+This effect is regularly observed in TJ-II discharges.
 
-Previous relevant work on other devices: ...
+Here, we perform a detailed study of the response of the plasma near the e-i root transition to the modulation of ECRH power.
+This study complements earlier work at TJ-II in which global transport was studied with ECRH power modulation \cite{S_Eguilior_2003}, or transport was studied as a function of ECRH power \cite{Milligen:2018b}, or modulated electrode biasing was applied, affecting the edge radial electric field and transport \cite{Grenfell:2019}.
+
+The novelty of this work lies in the analysis of the response of turbulence to ECRH modulation.
+For this purpose, we will make use of an array of quantifiers and will attempt to show that the e-i transition can be qualified as a `phase transition', characterized by a change of system order.
+
+{\em Previous relevant work on other devices: ...}
 
 \section{Experimental Set-up}
 
@@ -101,7 +109,7 @@ As the density increases, the global potential profile goes from positive to neg
 
 \subsection{Diagnostics}
 
-Describe diagnostics: ECE, Langmuir probes, HIBP, Thomson Scattering, He-Beam, magnetics (if applicable; use previous articles and the \href{https://wiki.fusion.ciemat.es/wiki/TJ-II}{Fusionwiki} for inspiration and references).
+Describe diagnostics (only if used): ECE, Langmuir probes, HIBP, Thomson Scattering, He-Beam, magnetics (if applicable; use previous articles and the \href{https://wiki.fusion.ciemat.es/wiki/TJ-II}{Fusionwiki} for inspiration and references).
 
 The 2-D probe has a specific configuration that allows computing some interesting quantities, including $T_e$.
 An estimate of the turbulent radial particle flux is possible $\Gamma \propto \tilde I_{sat} \tilde E_\theta$.
@@ -488,9 +496,10 @@ This idea provides an orientation for this study: can we verify that turbulent t
 \end{figure}
 
 
+\clearpage
 \section{Electron Cyclotron emission results}
 
-Note: an example case of ECE $T_e(\rho,t)$ results could be included in the section `Experiments', in order to illustrate the $T_e$ response to modulation, but we don't need an exhaustive study of this, since our goal is turbulence analysis, for which the ECE diagnostic is too limited.
+{\em Note: an example case of ECE $T_e(\rho,t)$ results could be included in the section `Experiments', in order to illustrate the $T_e$ response to modulation, but we don't need an exhaustive study of this, since our goal is turbulence analysis, for which the ECE diagnostic is too limited. So remove most of this.}
 
 ~\protect\cite{S_Eguilior_2003}
 \begin{equation}
