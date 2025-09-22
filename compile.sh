@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Si desea actualizar la actual version del script, por favor aumente una unidad el valor entre comillas
-version="1" 
+version="2" 
 echo "Version = "$version
 
 # compilacion del documento
